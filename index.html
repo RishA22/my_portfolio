@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">MISS Arora</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#bio">Biography</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">MISS Arora</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#bio" onclick="toggleMenu()">Biography</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Rishika's profile picture" />
+      </div>
+      <div class="section__text">
+        <!-- <p class="section__text__p1">Introducting...</p> -->
+        <h1 class="title">Rishika Arora</h1>
+        <p class="section__text__p2">SheCodes' Cohort</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/rishika-arora-1903011a5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZ%2FCMnwt1T0qUnZlLp7HElw%3D%3D'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/RishA22'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="bio">
+      <!-- <p class="section__text__p1">Get To Know More</p> -->
+      <h1 class="title">Biography</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/bio-pic.png"
+            alt="Profile picture"
+            class="bio-pic"
+          />
+        </div>
+        <div class="bio-details-container">
+          <div class="bio-containers">
+            <!-- <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div> -->
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors in IT<br />Masters in IT - Software Development</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              An ambitious, hard- working and disciplined IT graduate with a
+              strong academic and practical background. Good background in
+              Mathematics and Statistics. Thrive on challenging myself with
+              exciting projects with a team consisting of people with diverse
+              knowledge backgrounds.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <!-- <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="bio-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section> -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="bio-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Project One: E-book
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=('./assets/project-1-demo.pdf')"
+              >
+                Demo
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Project Two: Jump & Run Game
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=('./assets/project-2-demo.pdf')"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:examplemail@gmail.com"
+              >rishika.arora901@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/rishika-arora-1903011a5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnAeAXSygTIeR3JV2Op3D6Q%3D%3D"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#bio">Biography</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Rishika Arora. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
