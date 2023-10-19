@@ -36,7 +36,6 @@ Links to Github and Linkedin are added to the home page. The link to LinkedIn is
   hover. Those containers are reused in html file.
   - Javascript code is used to include the hamburger menu.
 
-
 ### Screenshots
 -Mobile view:
 
@@ -48,4 +47,4 @@ Links to Github and Linkedin are added to the home page. The link to LinkedIn is
 ![Image6MV](https://github.com/RishA22/my_portfolio/assets/110721184/b0ae2db6-4ae1-4b17-b7f3-a73a26e37a71)
 
 - Desktop view:
-- 
+  
