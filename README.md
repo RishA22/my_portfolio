@@ -48,5 +48,12 @@ Links to Github and Linkedin are added to the home page. The link to LinkedIn is
 
 - Desktop view:
   
-
+![Image1DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/08cc0506-6e52-46c0-9cb5-1f4dd93ae48c)
+![Image2DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/aed6ee37-6013-40fa-bb6d-eac4eb7b2ecb)
+![Image3DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/32331694-4b41-4c3e-a68e-c48a87b94a47)
+![Image4DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/42f01773-c31a-4043-8fd9-16ee2a450a4f)
+![Image5DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/a5bf8919-c1a5-4f73-bf91-11d852ff4d5b)
+![Image6DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/b9fc1952-e91e-4fe2-8a3f-de8d0fad1bc9)
+![Image7DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/ee4a9fae-e26e-43a3-b549-86080afd9f6a)
+![Image8DV JPG](https://github.com/RishA22/my_portfolio/assets/110721184/94343317-3ea1-4e13-868c-897226225006)
 
